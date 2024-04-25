@@ -1,0 +1,14 @@
+spring:
+    application:
+        name: batchdemo
+
+    batch:
+      job:
+        enabled: false
+      jdbc:
+        initialize-schema: ALWAYS
+
+    datasource:
+      url: jdbc:oracle:thin:@localhost:1521:orcl
+      username: tiger
+      password: 1234
